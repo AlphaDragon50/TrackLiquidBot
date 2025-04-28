@@ -27,6 +27,7 @@ TrackLiquid brings real-time Hyperliquid perp position alerts straight into your
 | `/listwallets`    | Quickly list your tracked wallets and aliases.                                         |
 | `/managewallet`   | View, rename, or remove any tracked wallet.                                            |
 | `/openpositions`  | Show current open PERP positions for a tracked wallet (P&L, entry price, leverage)     |
+| `/setchannel`     | Choose which channel receives perp notifications.                                      |
 | `/status`         | Display bot uptime, tier (Free/Premium), and how many wallets you’re tracking.         |
 
 
