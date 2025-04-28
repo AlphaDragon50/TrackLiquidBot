@@ -1,3 +1,7 @@
+[![Invite](https://img.shields.io/badge/Invite-TrackLiquid-blue)](YOUR_INVITE_URL)
+[![Support](https://img.shields.io/badge/Support-Discord-7289DA)](https://discord.gg/ZwUmxk2Y3B)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
 # 📡 TrackLiquid — Hyperliquid Wallet Tracker
 
 TrackLiquid brings real-time Hyperliquid perp position alerts straight into your Discord server.
