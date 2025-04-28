@@ -16,7 +16,7 @@ By using TrackLiquid, you accept these Terms in full. If you don't agree, don't 
 TrackLiquid monitors Hyperliquid perp positions for wallets you register, posting alerts on opens and closes. We provide no uptime or accuracy guarantees.
 
 ## 4. Privacy & Data
-We only collect public on-chain data and minimal settings (wallets, aliases, notification channel). No private keys or personal data are stored. See our [Privacy Policy](privacy.html).
+We only collect public on-chain data and minimal settings (wallets, aliases, notification channel). No private keys or personal data are stored. See our [Privacy Policy](https://alphadragon50.github.io/TrackLiquidBot/privacy.html).
 
 ## 5. No Financial Advice
 The Service is informational only, not financial advice. Always do your own research.
