@@ -1,6 +1,5 @@
-[![Invite](https://img.shields.io/badge/Invite-TrackLiquid-blue)](YOUR_INVITE_URL)
+[![Invite](https://img.shields.io/badge/Invite-TrackLiquid-blue)](https://discord.com/oauth2/authorize?client_id=1366056784049082398&permissions=92160&integration_type=0&scope=bot+applications.commands)
 [![Support](https://img.shields.io/badge/Support-Discord-7289DA)](https://discord.gg/ZwUmxk2Y3B)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 # 📡 TrackLiquid — Hyperliquid Wallet Tracker
 
