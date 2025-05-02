@@ -45,7 +45,7 @@ TrackLiquid (“we”, “us”) respects your privacy. This policy explains wha
 
 ## 5. Security
 
-- We do **not** collect private keys or other sensitive personal data.  
+- We **don't** collect private keys or other sensitive personal data.  
 - All external calls (to Hyperliquid or Discord) use encrypted HTTPS connections.
 
 ---
