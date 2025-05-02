@@ -41,34 +41,35 @@ TrackLiquid brings real-time Hyperliquid perp position alerts straight into your
 
 ## 💡 Examples
 
-- **Add a wallet with an alias**  
-  `/addwallet 0xABC...123 MyTradingWallet`
+- **Add a wallet with an (optional) alias**  
+  `/addwallet 0xABC...123 MyTradingWallet`  
+  <div align="center">
+    <img src="./assets/addwallet.prompt.PNG" alt="Add Wallet Prompt" width="300" />
+    <img src="./assets/addwallet.embed.PNG"  alt="Add Wallet Confirmation" width="300" />
+  </div>
 
 - **List & manage wallets**  
-  `/managewallet` → choose “MyTradingWallet” → rename, remove, or clear all.
+  `/managewallet` → choose “MyTradingWallet” → rename, remove, or clear all.  
+  <div align="center">
+    <img src="./assets/managewallet_panel.PNG" alt="Manage Wallet Panel" width="300" />
+    <img src="./assets/managewallet_embed.PNG" alt="Manage Wallet Embed" width="300" />
+  </div>
 
 - **Check open positions**  
-  `/openpositions` → select your wallet → see entry price, size, leverage, PnL.
+  `/openpositions` → select your wallet → see entry price, size, leverage, PnL.  
+  <div align="center">
+    <img src="./assets/openpositions_embed.PNG" alt="Open Positions Embed" width="300" />
+  </div>
 
 - **Check Unrealized PnL**  
-  `/unrealized 0xABC...123` → shows current unrealized profit & loss.
+  `/unrealized` → select your wallet → shows current unrealized profit & loss.  
+  <div align="center">
+    <img src="./assets/unrealized_embed.PNG" alt="Unrealized PnL Embed" width="300" />
+  </div>
 
 - **View bot status**  
-  `/status` → shows uptime and number of tracked wallets (e.g. `3/3`).
-
----
-
-### 📸 Screenshots
-
-<div align="center">
-  <img src="./assets/addwallet.prompt.PNG"   alt="Add Wallet Prompt"           width="300" />
-  <img src="./assets/addwallet.embed.PNG"    alt="Add Wallet Confirmation"     width="300" />
-  <img src="./assets/managewallet_panel.PNG" alt="Manage Wallet Panel"          width="300" />
-  <img src="./assets/managewallet_embed.PNG" alt="Manage Wallet Embed"          width="300" />
-  <img src="./assets/openpositions_embed.PNG" alt="Open Positions Embed"         width="300" />
-  <img src="./assets/unrealized_embed.PNG"   alt="Unrealized PnL Embed"         width="300" />
-  <img src="./assets/live_alerts.png"        alt="Live Alerts Example"          width="300" />
-</div>
+  `/status` → shows uptime and number of tracked wallets (e.g. `3/3`).  
+  *(Screenshot coming soon!)*
 
 ---
 
