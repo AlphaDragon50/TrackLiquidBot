@@ -15,24 +15,27 @@ TrackLiquid brings real-time Hyperliquid perp position alerts straight into your
 2. **Pick Your Alerts Channel**  
    `/setchannel` → select the channel where alerts should post.
 
-3. **Add Wallets to Track**  
+3. **Add Wallets to Track (up to 3)**  
    `/addwallet 0x5078c2fbea2...bedb6 [Whale]`  
-   *The optional `[Alias]` (e.g. `Whale`) helps you read alerts at a glance.*
+   *Optional alias helps you read alerts at a glance.*
+
+4. **View Unrealized PnL**  
+   `/unrealized` → select a tracked wallet to see its current unrealized P&L.
 
 ---
 
 ## ⚙️ Core Commands
 
-| Command           | Description                                                                            |
-|-------------------|----------------------------------------------------------------------------------------|
-| `/help`           | Show a quick reminder of all available commands.                                       |
-| `/addwallet`      | Track a new wallet (with an optional alias)                                            |
-| `/listwallets`    | Quickly list your tracked wallets and aliases.                                         |
-| `/managewallet`   | View, rename, or remove any tracked wallet.                                            |
-| `/openpositions`  | Show current open PERP positions for a tracked wallet (P&L, entry price, leverage)     |
-| `/setchannel`     | Choose which channel receives perp notifications.                                      |
-| `/status`         | Display bot uptime, tier (Free/Premium), and how many wallets you’re tracking.         |
-
+| Command           | Description                                                                                   |
+|-------------------|-----------------------------------------------------------------------------------------------|
+| `/help`           | Show a quick reminder of all available commands.                                              |
+| `/addwallet`      | Track a new wallet (with an optional alias). Use up to 3 wallets per server.                  |
+| `/listwallets`    | Quickly list your tracked wallets and aliases.                                                |
+| `/managewallet`   | View, rename, or remove any tracked wallet (includes “Remove All”).                           |
+| `/openpositions`  | Show current open PERP positions for a tracked wallet (size, entry price, leverage, P&L).    |
+| `/unrealized`     | Show unrealized PnL for a tracked wallet.                                                     |
+| `/setchannel`     | Choose which channel receives perp notifications (leave blank to clear).                      |
+| `/status`         | Display bot uptime and how many wallets you’re tracking (e.g. `2/3`).                         |
 
 ---
 
@@ -42,18 +45,16 @@ TrackLiquid brings real-time Hyperliquid perp position alerts straight into your
   `/addwallet 0xABC...123 MyTradingWallet`
 
 - **List & manage wallets**  
-  `/managewallet` → choose “MyTradingWallet” → rename or remove it
+  `/managewallet` → choose “MyTradingWallet” → rename, remove, or clear all.
 
-- **Check positions**  
-  `/openpositions` → select your wallet → see a neat embedded summary
+- **Check open positions**  
+  `/openpositions` → select your wallet → see entry price, size, leverage, P&L.
 
----
+- **Check Unrealized PnL**  
+  `/unrealized 0xABC...123` → shows current unrealized profit & loss.
 
-## 🏷️ Tiers & Limits
-
-- **Free**: Track up to **3** wallets per server  
-- **Premium**: Unlimited wallets, priority polling, advanced alerts  
-*(Premium coming soon!)*
+- **View bot status**  
+  `/status` → shows uptime and number of tracked wallets (e.g. `3/3`).
 
 ---
 
