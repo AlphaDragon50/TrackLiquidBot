@@ -68,8 +68,10 @@ TrackLiquid brings real-time Hyperliquid perp position alerts straight into your
   </div>
 
 - **View bot status**  
-  `/status` → shows uptime and number of tracked wallets (e.g. `3/3`).  
-  *(Screenshot coming soon!)*
+  `/status` → shows uptime and number of tracked wallets (e.g. `2/3`).  
+  <div align="center">
+    <img src="./assets/status_embed.PNG" alt="Status Embed" width="300" />
+  </div>
 
 ---
 
