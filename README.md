@@ -1,5 +1,6 @@
 [![Invite](https://img.shields.io/badge/Invite-TrackLiquid-blue)](https://discord.com/oauth2/authorize?client_id=1366056784049082398&permissions=92160&integration_type=0&scope=bot+applications.commands)
 [![Support](https://img.shields.io/badge/Support-Discord-7289DA)](https://discord.gg/ZwUmxk2Y3B)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE.md)
 
 # 📡 TrackLiquid — Hyperliquid Wallet Tracker
 
@@ -80,4 +81,6 @@ TrackLiquid brings real-time Hyperliquid perp position alerts straight into your
 If you hit a snag or have a feature request, join our Support Server:  
 👉 https://discord.gg/ZwUmxk2Y3B
 
-*Thank you for using TrackLiquid!*  
+---
+
+© 2025 AlphaDragon50 · [MIT License](./LICENSE.md)  
