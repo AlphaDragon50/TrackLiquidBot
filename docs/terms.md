@@ -33,7 +33,13 @@ We provide no uptime or accuracy guarantees.
 
 ## 4. Privacy & Data
 
-We only collect public on-chain data and minimal settings (wallets, aliases, notification channel). No private keys or personal data are stored. See our [Privacy Policy](https://alphadragon50.github.io/TrackLiquidBot/privacy.html).
+We collect only minimal data:
+
+- **Wallets**, **aliases**, and **notification channel**  
+- **Public on-chain data** from Hyperliquid  
+
+No private keys or personal data are stored. See our
+[Privacy Policy](./privacy.md) for details.
 
 ---
 
@@ -62,7 +68,8 @@ We may update these Terms at any time; continued use implies your acceptance of 
 
 ---
 
-## 9. Contact
+## 9. Contact & License
 
-- Support Server: https://discord.gg/ZwUmxk2Y3B  
-- Email: support@trackliquid.io  
+- **Support Server**: <https://discord.gg/ZwUmxk2Y3B>  
+- **Email**: support@trackliquid.io  
+- **License**: [MIT](./LICENSE.md) 
